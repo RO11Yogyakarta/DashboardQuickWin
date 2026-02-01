@@ -1,0 +1,10 @@
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<div id="grafik"></div>
+<script>
+  var data = [{
+    x: ['Januari','Februari','Maret'],
+    y: [10, 15, 13],
+    type: 'bar'
+  }];
+  Plotly.newPlot('grafik', data);
+</script>
